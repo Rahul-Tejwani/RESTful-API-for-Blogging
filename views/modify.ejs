@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Blog</title>
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1> <%= heading %> </h1>
+
+    <% if (locals.post) { %>
+      <form id="editForm" method="post" action="/api/posts/<%=post._id%>">
+      <div>
+        <label for="title" class="required-asterisk">Title:</label>
+        <input type="text" name="title" id="title" value="<%=post.title %>" required class="required-input">
+      </div>
+      <div>
+        <label for="content" class="required-asterisk">Content:</label>
+        <textarea name="content" rows="10" id="content"><%=post.content %></textarea>
+      </div>
+      <div>
+        <label for="author" class="required-asterisk">Author:</label>
+        <input class="required-input" type="text" name="author" id="author" value="<%=post.author %>" required>
+      </div>
+        <button class="full-width" type="submit"><%= submit %></button>
+      </form>
+      <% } else {%>
+        <form id="newPostForm" method="post" action="/api/posts">
+        <div>
+          <label for="title" class="required-asterisk">Title:</label>
+          <input class="required-input" type="text" name="title" id="title" placeholder="Title" required>
+        </div>
+        <div>
+          <label for="content" class="required-asterisk">Content:</label>
+          <textarea name="content" placeholder="Content" required rows="10" id="content"></textarea>
+        </div>
+        <div>
+          <label for="author" class="required-asterisk">Author:</label>
+          <input class="required-input" type="text" name="author" id="author" placeholder="Author" required>        
+        </div>
+          <button class="full-width" type="submit">
+            <%= submit %>
+          </button>
+        </form>
+        <% } %>
+
+  </div>
+</body>
+
+</html>
