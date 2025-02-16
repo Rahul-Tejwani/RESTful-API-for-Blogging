@@ -5,17 +5,11 @@ The RESTful Blogging API is designed for blog post management with full CRUD (Cr
 
 ## Key Features and Functionalities
 - **CRUD Operations:** Supports GET, POST, PATCH, and DELETE HTTP methods to handle blog post creation, retrieval, updation, and deletion, ensuring a dynamic and interactive content management experience.
-
 - **RESTful API Architecture:** Designed an API adhering to REST principles, with well-defined endpoints for seamless interaction with external servers and client-side applications.
-
 - **Database Integration:** Integrated MongoDB as the database to store and manage blog posts, ensuring scalability and flexibility.
-
 - **Front-End Integration:** Developed a user-friendly front-end interface using HTML, CSS, JavaScript, and EJS to render blog content while seamlessly interacting with the API.
-
 - **End-to-end Testing:** Built an external server to simulate real-world API requests and test the API’s functionality comprehensively.
-
 - **Error Handling & Response Management:** Implements structured error handling with appropriate status codes to maintain API reliability and user-friendly feedback.
-
 - **Scalability and Flexibility:** Designed the API to be easily integrated with any external server or application, making it adaptable for various use cases.
 
 ## Tech Stack & Tools
