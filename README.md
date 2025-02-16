@@ -12,13 +12,13 @@ The RESTful Blogging API is designed for blog post management with full CRUD (Cr
 
 - **Front-End Integration:** Developed a user-friendly front-end interface using HTML, CSS, JavaScript, and EJS to render blog content while seamlessly interacting with the API.
 
-- **End-to-End Testing:** Built an external server to simulate real-world API requests and test the API’s functionality comprehensively.
+- **End-to-end Testing:** Built an external server to simulate real-world API requests and test the API’s functionality comprehensively.
 
 - **Error Handling & Response Management:** Implements structured error handling with appropriate status codes to maintain API reliability and user-friendly feedback.
 
 - **Scalability and Flexibility:** Designed the API to be easily integrated with any external server or application, making it adaptable for various use cases.
 
-## Tech Stack & Tools -
+## Tech Stack & Tools
 - **Frontend Development:** HTML, CSS, JavaScript, EJS
 - **Backend Development:** Node.js, Express.js
 - **Database:** MongoDB, Mongoose
