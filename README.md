@@ -13,7 +13,8 @@ The RESTful Blogging API is designed for blog post management with full CRUD (Cr
 - **Error Handling & Response Management:** Implements structured error handling with appropriate status codes to maintain API reliability and user-friendly feedback.
 - **Scalability and Flexibility:** Designed the API to be easily integrated with any external server or application, making it adaptable for various use cases.
 
-## Tech Stack & Tools
+---
+### Tech Stack & Tools
 - **Frontend Development:** HTML, CSS, JavaScript, EJS
 - **Backend Development:** Node.js, Express.js
 - **Database:** MongoDB, Mongoose
