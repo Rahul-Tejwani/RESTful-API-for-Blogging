@@ -1,7 +1,7 @@
 # RESTful API for Blogging
 
 ## Project Overview
-The RESTful Blogging API is designed for blog post management with full CRUD (Create, Read, Update, Delete) functionality. Built using Node.js, Express.js, MongoDB, and EJS, this API supports seamless integration with external servers and provides a dynamic, user-friendly blogging experience, making it ideal for blogging applications. The project also includes a front-end interface and an external server for end-to-end testing, demonstrating expertise in full-stack development, API design, and database management, and end-to-end testing.
+The RESTful Blogging API is designed for blog post management with full CRUD (Create, Read, Update, Delete) functionality. Built using Node.js, Express.js, MongoDB, and EJS, this API supports seamless integration with external servers and provides a dynamic, user-friendly blogging experience, making it ideal for blogging applications. The project also includes a front-end interface and an external server for end-to-end testing, demonstrating expertise in full-stack development, API design, database management, and end-to-end testing.
 
 ---
 ### **Key Features and Functionalities**
